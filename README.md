@@ -10,7 +10,7 @@ In order to answer this question, we first need to know what a prime number is. 
 
 A Mersenne prime is a number of the form 2ᵖ – 1, in which P is also a prime number. They are named after Marin Mersenne, a French mathematician, who studied them in the early 17ᵗʰ century. The first Mersenne primes are 3, 7, 31, 127 (corresponding to P = 2, 3, 5, 7).
 
-The largest known prime number, 2⁸²⁵⁸⁹⁹³³ − 1 (aka M82589933), is a Mersenne prime. It is more than twenty-three million (23,000,000) digits long! Mersenne primes are something of a unicorn in the world of mathematics. Only fifty-one (51) are known to date! However, mathematicians still believe that there is an infinite number of Mersenne primes. Therefore, we have barely scratched the surface of this intriguing topic.
+The largest known prime number, 2⁸²⁵⁸⁹⁹³³ − 1 (aka M82589933), is a Mersenne prime. It is more than twenty-three million (23,000,000) decimal digits long! Mersenne primes are something of a unicorn in the world of mathematics. Only fifty-one (51) are known to date! However, mathematicians still believe that there is an infinite number of Mersenne primes. Therefore, we have barely scratched the surface of this intriguing topic.
 
 ## Great Internet Mersenne Prime Search (GIMPS)
 [GIMPS](https://www.mersenne.org/) is a collaborative project of volunteers who use freely available [software](https://www.mersenne.org/download/) (e.g. mprime) to search for Mersenne prime numbers. 
@@ -20,7 +20,7 @@ The software uses the idle processing power of your CPU to run a [test](https://
 ## So What's the Point?
 Finding a Mersenne prime will make you money. GIMPS [awards](https://www.mersenne.org/legal/#mpa:~:text=Research%20Discovery%20Awards-,Mersenne%20Prime%20Award%20of%20USD%20%243%2C000.00,the%20GIMPS%20PrimeNet%20server%20or%20to%20email%20their%20results%20to%20GIMPS.,-Privacy%20Policy) people for discovering Mersenne Primes. For discovering a Mersenne prime having fewer than 100,000,000 digits, GIMPS awards you with $3,000. Discovering a Mersenne prime with more than 100,000,000 digits earns you $50,000! It is like cryptocurrency mining for those of us who cannot afford to buy a dozen graphics cards or ASIC miners.
 
-Prime numbers aslo play a crucial role in keeping data secure. For instance, [RSA encryption](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) relies on multiplying two large prime numbers together to generate a key (public key). Data can be encrypted by anyone using the public key, but can only be decoded by someone who knows the two prime numbers.
+Prime numbers aslo play a crucial role in keeping data secure. For instance, [RSA encryption](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) relies on multiplying two large prime numbers together to help generate a key (public key). Data can be encrypted by anyone using the public key, but can only be decoded by someone who knows the two prime numbers.
 
 ## Steps
 These are the steps I followed while trying to find a new Mersenne prime.
